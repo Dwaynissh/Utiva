@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Header styling */
+
+.navigation {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navwrapp {
+    height: 80px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-logo {
+    height: 70px;
+    width: 30%;
+}
+.navs {
+    height: 70px;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    color: rgb(64,74,89);
+}
+
+.navs button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255,146,21);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Hero styling */
+.hero {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-wrapp {
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-btn-content {
+    width: 49%;
+    height: 90vh;
+}
+
+.p {
+    margin-top: 100px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.text-btn-content h1 {
+    font-size: 60px;
+    background: linear-gradient(to right,purple, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+.text-btn-content p {
+    font-size: 20px;
+    color: grey;
+    margin-top: 21px;
+}
+
+.img-content {
+    width: 49%;
+    height: 90vh
+}
+
+.dual-btn {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dual-btn .btn1 {
+    width: 180px;
+    height: 50px;
+    background-color: rgb(255,146,21);
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+}
+.dual-btn .btn2 {
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    color: rgb(64,74,89);
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgb(179, 178, 178);
+}
+
+.img-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.img-content img {
+    border-radius: 8px;
+}
+/* Showcase section */
+.showcase {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(54, 54, 242), rgb(246, 102, 50));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase-wrapp {
+    height: 60vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.showcase-text {
+    height: 40vh;
+    width: 49%;
+    padding-top: 80px;
+}
+.showcase-text h3 {
+    color: rgb(255,146,21);
+    margin-bottom: 20px;
+}
+.showcase-text h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.showcase-grid {
+    height: 40vh;
+    width: 49%;
+    display: grid;
+    justify-content: flex-end;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+    padding-top: 80px;
+}
+.dropbox {
+    background-image: url(img/dropbox.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.notion {
+    background-image: url(img/notion.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.github {
+    background-image: url(img/github.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.microsoft {
+    background-image: url(img/microsoft.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Waste management */
+.Waste-management {
+    height: 80vh;
+    width: 100%;
+}
+.content-header {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.content-header h1 {
+    font-size: 40px;
+    color: rgb(31,41,55);
+    margin-bottom: 10px;
+}
+.content-header p {
+    font-size: 21px;
+    color: rgb(31,41,55);
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.br {
+    margin-left: 200px;
+}
+.br2 {
+    margin-left: 75px;
+}
+
+.content-cards {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+.content-cards-wrapp {
+    height: 50vh;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: repeat(3, 230px);
+    gap: 40px;
+}
+.green {
+    color: green;
+}
+
+.one {
+    border: 1px solid rgb(222, 221, 221);
+    border-radius: 8px;
+    padding: 20px;
+}
+.one h2 {
+    margin-top: 20px;
+}
+.one p {
+    margin-top: 20px;
+}
+.two {
+    border: 1px solid rgb(222, 221, 221);
+    border-radius: 8px;
+}
+.three {
+    border: 1px solid rgb(222, 221, 221);
+    border-radius: 8px;
+}
+.four {
+    border: 1px solid rgb(222, 221, 221);
+    border-radius: 8px;
+}
+.five {
+    border: 1px solid rgb(222, 221, 221);
+    border-radius: 8px;
+}
+.six {
+    border: 1px solid rgb(222, 221, 221);
+    border-radius: 8px;
+}
